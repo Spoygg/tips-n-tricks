@@ -44,7 +44,7 @@ nice
 
 Git (temporary here)
 --------------------
-Do partial git push, push until commit with <thelonghash>.
+Do partial git push, push until commit with thelonghash.
 ```bash
 git push origin <thelonghash>:master
 ```

@@ -41,3 +41,10 @@ vboxnetadp             18323  0
 vboxdrv              1823456  2 vboxnetadp,vboxnetflt
 ```
 nice
+
+Git (temporary here)
+--------------------
+Do partial git push, push until commit with <thelonghash>.
+```bash
+git push origin <thelonghash>:master
+```

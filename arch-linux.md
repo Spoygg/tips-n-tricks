@@ -48,3 +48,9 @@ Do partial git push, push until commit with thelonghash.
 ```bash
 git push origin <thelonghash>:master
 ```
+
+Save screenshots to make timelapse of desktop
+---------------------------------------------
+```bash
+watch -n 10 scrot '%s.png'
+```

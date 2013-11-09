@@ -54,3 +54,26 @@ Save screenshots to make timelapse of desktop
 ```bash
 watch -n 10 scrot '%s.png'
 ```
+
+Default applications (preferred applications) fluxbox (on debian)
+-----------------------------------------------------------------
+
+```bash
+gconftool-2 -t string -s /desktop/gnome/url-handlers/magnet/command "transmission-gtk %s"
+gconftool-2 -s /desktop/gnome/url-handlers/magnet/needs_terminal false -t bool
+gconftool-2 -t bool -s /desktop/gnome/url-handlers/magnet/enabled true
+```
+
+```bash
+vim .xinitrc
+```
+add
+```
+export DE="xfce"
+```
+reboot (restart X)
+
+```bash
+sudo apt-get install exo-utils
+```
+enjoy
